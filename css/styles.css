@@ -1,0 +1,108 @@
+:root {
+  --brand-color: #2196f3;
+  --primay-text-color: #757575;
+  --second-text-color: #ffffff;
+  --third-text-color: #000000;
+  --title-text-color: #212121;
+  --bg-color-primary: #ffffff;
+  --bg-color-second: #f5f4fa;
+  --bg-color-third: #2f303a;
+  --address-color: rgba(255, 255, 255, 0.6);
+}
+
+ul {
+  list-style: none;
+}
+
+/* хедер */
+.page-header {
+  background-color: var(--bg-color-primary);
+}
+.logo {
+  color: var(--third-text-color);
+}
+.logo span {
+  color: var(--brand-color);
+}
+.nav-list .link {
+  color: var(--title-text-color);
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--brand-color);
+}
+.contacts {
+  color: var(--primay-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--brand-color);
+}
+
+/* головний */
+.main {
+  background-color: var(--bg-color-third);
+}
+.main-title {
+  color: var(--second-text-color);
+}
+.main .button {
+  color: var(--second-text-color);
+  background-color: var(--brand-color);
+}
+
+/* перваги */
+.section {
+  background-color: var(--bg-color-primary);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.features-title {
+  color: var(--title-text-color);
+}
+.features-text {
+  color: var(--primay-text-color);
+}
+/* роота */
+
+/* команда */
+.section.dark {
+  background-color: var(--bg-color-second);
+}
+.team-title {
+  color: var(--title-text-color);
+}
+.team-text {
+  color: var(--primay-text-color);
+}
+/* футер */
+.footer {
+  background-color: var(--bg-color-third);
+}
+.logo.dark-bg {
+  color: var(--second-text-color);
+}
+.address-list .street {
+  color: var(--second-text-color);
+}
+.address-list .contacts {
+  color: var(--address-color);
+}
+
+/* portfolio.html */
+.button-list .button {
+  color: var(--title-text-color);
+  background-color: var(--bg-color-second);
+}
+.button-list .button:hover,
+.button-list .button:focus {
+  color: var(--second-text-color);
+  background-color: var(--brand-color);
+}
+.project-title {
+  color: var(--title-text-color);
+}
+.project-text {
+  color: var(--primay-text-color);
+}
