@@ -18,9 +18,16 @@ body {
 ul {
   list-style: none;
 }
-/* button {
+button {
   font-family: inherit;
-} */
+  cursor: pointer;
+}
+.button.main-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
 
 /* хедер */
 .logo {
@@ -29,6 +36,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo span {
   color: var(--brand-color);
@@ -39,6 +47,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-list .link:hover,
 .nav-list .link:focus {
@@ -53,6 +62,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contacts:hover,
 .contacts:focus {
@@ -92,7 +102,6 @@ ul {
 }
 .features-text {
   color: var(--primay-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -110,7 +119,6 @@ ul {
 }
 .team-text {
   color: var(--primay-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -123,21 +131,34 @@ ul {
 }
 .address-list {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 .address-list .street {
   color: var(--second-text-color);
+  text-decoration: none;
 }
+/* .address-list .street:hover,
+.address-list .street:focus {
+  color: var(--brand-color);
+} */
 .address-list .contacts {
   color: var(--address-color);
+  text-decoration: none;
+}
+.address-list .contacts:hover,
+.address-list .contacts:focus {
+  color: var(--brand-color);
 }
 
 /* portfolio.html */
 .button-list .button {
   color: var(--title-text-color);
   background-color: var(--bg-color-second);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 .button-list .button:hover,
 .button-list .button:focus {
