@@ -168,7 +168,13 @@ button {
 }
 .project-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .project-text {
   color: var(--primay-text-color);
+  font-size: 16px;
+  line-height: 1.88;
 }
